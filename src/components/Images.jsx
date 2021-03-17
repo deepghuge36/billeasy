@@ -16,7 +16,7 @@ function Images() {
     const loadImages = async () => {
         try {
             const data = await axios
-                .get(`http://www.mocky.io/v2/5ecb5c353000008f00ddd5a0`)
+                .get(`https://cors-anywhere.herokuapp.com/http://www.mocky.io/v2/5ecb5c353000008f00ddd5a0`)
                 .then((res) => {
                     console.log(res.data);
                     setImages(res.data);
