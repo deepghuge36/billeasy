@@ -93,3 +93,23 @@ a{
         color: #79e3b6;
 
 }
+
+
+.center img{
+  width:200px;
+  border    : 0.2em solid #332D2A;
+  box-shadow: 3px 3px 8px 0px rgba(0, 0, 255, 0.3);
+  margin: 5px 40px;
+}
+.center img:nth-child(even){
+  width:100px;
+}
+.center img:nth-child(odd){
+  width:170px;
+}
+.center div:nth-child(odd){
+  padding: 0px 20px ;
+}
+.center div:nth-child(even){
+  padding: -20px;
+}

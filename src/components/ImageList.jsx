@@ -11,12 +11,13 @@ export default function ImageList(props) {
                 return (
                     <div>
                         <div>
-                            <img src={url.urls.full} alt={url.alt_description} height="200px" width="200px" style={{ border: "1px solid #ccc", boxShadow: "1px 1px 6px 6px #ccc" }} />
-                            <p className="center">
+                            <img src={url.urls.full} alt={url.alt_description} />
+                            {/* <p className="center">
                                 <InstagramIcon style={{ color: "#4c68d7" }} />
-                                {url.user.instagram_username}</p>
+                                {url.user.instagram_username}</p> */}
                         </div>
-                    </div>)
+                    </div>
+                )
             })}
         </div>
     )
